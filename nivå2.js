@@ -43,7 +43,7 @@ console.log(div);
 button.addEventListener("click", HandleClick);
 
 // let i = 0 -- Startvärde. 
-
+hej
 
 
 

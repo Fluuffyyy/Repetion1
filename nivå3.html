@@ -6,6 +6,28 @@
     <title>Nivå3</title>
 </head>
 <body>
-    
+    <h1>Filtrering</h1>
+    <input type="number" id = "ageInput"  placeholder = "Ange ålder du söker efter">
+ <button id ="filterBtn">Filtrera</button>
+
+ <ul id = "resultat"></ul>
+  <script src="nivå3.js"></script>
 </body>
 </html>
+
+<!--## Nivå 3 – Kombinerad UI-logik
+### Uppgift: Enkel filterfunktion
+
+### Krav
+- Skapa en array med objekt:
+```js
+{ name: "Anna", age: 25 }
+- Inputfält + knapp
+- Vid klick:
+  - filtrera fram personer över viss ålder
+  - rendera resultatet i DOM
+
+### Diagnostiserar
+- Villkorslogik
+- Array-metoder vs loop
+- Separation av ansvar (data / logik / DOM)-->
